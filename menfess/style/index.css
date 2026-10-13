@@ -119,17 +119,17 @@
     cursor: none;
 }
 
- .sendyourmessage {
+
+/* Horizontal Laptop FHD/2K */
+
+  @media (min-width: 1025px) {
+.sendyourmessage {
     text-align: center;
     position: relative;
     width: 70%;
     position: relative;
     top: -7em;
   }
-
-/* Horizontal Laptop FHD/2K */
-
-  @media (min-width: 1025px) {
 .home-subtext-1 {
     position: relative;
     display: inline-block;
@@ -287,6 +287,14 @@
 /* Vertical Tablet */
 
   @media (min-width: 650px) and (max-width: 1025px) {
+    .sendyourmessage {
+    text-align: center;
+    position: relative;
+    width: 70%;
+    position: relative;
+    top: -7em;
+  }
+
     .home-subtext-1 {
     position: relative;
     display: inline-block;
@@ -463,19 +471,28 @@
   height: 200vh; 
 }
 
-/* Vertical Tablet */
+/* Vertical Phone */
+
 @media (min-width: 0px) and (max-width: 649px) {
+    .sendyourmessage {
+    text-align: center;
+    position: relative;
+    width: 70%;
+    position: relative;
+    top: 1em;
+  }
+  
+
     .home-subtext-1 {
     position: relative;
     display: inline-block;
-    top: -1em;
+    top: 1em;
+    left: -0.1em;
     font-size: 9vw;
     line-height: 0.9em;
     font-family: Poppins, 'Segoe UI', sans-serif;
     font-weight: bold;
     color: #99daff;
-    padding-left: 2%;
-    max-width: 80%;
     opacity: 0.40;
     animation: appear-1 linear;
     animation-timeline: view();
@@ -484,7 +501,7 @@
 
 .home-subtext-2 {
     position: relative;
-    top: -2em;
+    top: 2.2em;
     max-width: 100%;
     font-size: 15px;
 }
@@ -492,9 +509,8 @@
 .home-subtext-3 {
     position: relative;
     display: inline;
-    top: 1em;
-    padding-left: 2%;
-    font-size: 8vw;
+    top: 2.4em;
+    font-size: 7vw;
     line-height: 0.9em;
     font-family: Poppins, 'Segoe UI', sans-serif;
     font-weight: bold;
@@ -510,14 +526,14 @@
 .home-subtext-4 {
     position: relative;
     display: inline-block;
-    top: 2em;
+    top: 5em;
     font-size: 15px;
     max-width: 100%;
 }
 
 .home-subtext-5 {
     position: relative;
-    top: 3em;
+    top: 5em;
     padding-left: 2%;
     font-size: 7vw;
     font-family: Poppins, 'Segoe UI', sans-serif;
@@ -536,7 +552,6 @@
     font-family: Poppins, 'Segoe UI', sans-serif;
     font-weight: bold;
     color: #99daff;
-    padding-left: 2%;
     max-width: 80%;
     opacity: 0.64;
     opacity: 0.40;
@@ -548,7 +563,7 @@
 .home-subtext-7 {
      position: relative;
     display: inline-block;
-    top: -1.2em;
+    top: -1.5em;
     font-size: 20px;
 }
 
@@ -590,7 +605,7 @@
 
 .gallery-container {
     margin: 100px auto;
-    width: 90%;
+    width: 100%;
     display: flex;
     overflow-x: auto;
 }   
